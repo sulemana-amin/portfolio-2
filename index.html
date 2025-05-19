@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Introvert Graphics | Sulemana Amin</title>
+  <meta name="description" content="Sulemana Amin - Modern Graphic Designer, Video Editor, and Web Developer. View portfolio, testimonials, and connect for creative projects." />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-nav">
+      <a href="#" class="site-logo">
+        <img src="logo.png" alt="Introvert Graphics Logo"/>
+        <span>Introvert Graphics</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" title="Toggle Light/Dark Mode" aria-label="Toggle theme">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- About -->
+    <section class="about-me" id="about">
+      <div class="about-content">
+        <img src="profile.jpg" alt="Sulemana Amin" class="about-photo"/>
+        <div>
+          <h2>About Me</h2>
+          <p class="about-lead">
+            Hi, I'm <span class="name-highlight">Sulemana Amin</span>.<br>
+            I specialize in <b>graphic design</b>, <b>video editing</b>, and <b>web development</b>. My mission is to help brands stand out with clean, modern visuals.
+          </p>
+          <div class="tools-list">
+            <strong>Tools:</strong> Photoshop, Illustrator, Premiere Pro, VS Code, DaVinci Resolve, Canva
+          </div>
+          <a href="#contact" class="about-cta-btn">Let's Connect</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <div>
+          <h1>Designing Experiences.<br>Editing Stories.<br>Building Futures.</h1>
+          <p class="hero-subtext">I help brands grow through smart design, video, and development.</p>
+          <a href="#portfolio" class="cta-btn">View My Work</a>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <a href="#services" aria-label="Scroll to Services"><span>▼</span></a>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <h2>What I Do</h2>
+      <div class="services-cards">
+        <div class="service-card">
+          <div class="service-icon service-gd"></div>
+          <h3>Graphic Design</h3>
+          <p>Logos, flyers, and visuals to elevate your brand identity.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon service-ve"></div>
+          <h3>Video Editing</h3>
+          <p>Compelling stories through editing and motion graphics.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon service-wd"></div>
+          <h3>Web Development</h3>
+          <p>Responsive sites that convert visitors to fans.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio-preview" id="portfolio">
+      <h2>Portfolio Highlights</h2>
+      <div class="portfolio-grid">
+        <a class="portfolio-item" href="bruh-lucky-birthday.jpg" target="_blank" title="Birthday Graphic">
+          <img src="bruh-lucky-birthday.jpg" alt="Birthday Graphic"/>
+          <div class="portfolio-overlay">
+            <span>Birthday Graphic</span>
+          </div>
+        </a>
+        <a class="portfolio-item" href="naming-ceremony-invitation.jpg" target="_blank" title="Ceremony Invitation">
+          <img src="naming-ceremony-invitation.jpg" alt="Invitation Design"/>
+          <div class="portfolio-overlay">
+            <span>Ceremony Invitation</span>
+          </div>
+        </a>
+        <a class="portfolio-item" href="jandams-transport.jpg" target="_blank" title="Transport Flyer">
+          <img src="jandams-transport.jpg" alt="Transport Flyer"/>
+          <div class="portfolio-overlay">
+            <span>Transport Flyer</span>
+          </div>
+        </a>
+        <a class="portfolio-item" href="birthday-tshirt.jpg" target="_blank" title="T-Shirt Design">
+          <img src="birthday-tshirt.jpg" alt="T-Shirt Design"/>
+          <div class="portfolio-overlay">
+            <span>T-Shirt Design</span>
+          </div>
+        </a>
+        <a class="portfolio-item" href="shafatu-beauty-salon.jpg" target="_blank" title="Beauty Salon Promo">
+          <img src="shafatu-beauty-salon.jpg" alt="Beauty Salon Promo"/>
+          <div class="portfolio-overlay">
+            <span>Beauty Salon Promo</span>
+          </div>
+        </a>
+        <a class="portfolio-item" href="linguistic-tshirt.jpg" target="_blank" title="Linguistic Island Shirt">
+          <img src="linguistic-tshirt.jpg" alt="Linguistic Island Shirt"/>
+          <div class="portfolio-overlay">
+            <span>Linguistic Island Shirt</span>
+          </div>
+        </a>
+      </div>
+      <div class="portfolio-more">
+        <a href="mailto:introvertgraphics@gmail.com?subject=Project%20Inquiry" class="portfolio-contact-link">Interested in a custom project? Let's work together!</a>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+      <h2>What Clients Say</h2>
+      <div class="testimonials-cards">
+        <div class="testimonial-card">
+          <blockquote>
+            <p>“Amin took our brand visuals to the next level! Fast, creative, and reliable.”</p>
+            <figcaption>
+              <span class="testimonial-author">F. Abdul</span>
+              <span class="testimonial-role">Linguistic Island</span>
+            </figcaption>
+          </blockquote>
+        </div>
+        <div class="testimonial-card">
+          <blockquote>
+            <p>“The website and graphics were better than we imagined. Highly recommended.”</p>
+            <figcaption>
+              <span class="testimonial-author">M. Jandam</span>
+              <span class="testimonial-role">Jandam's Transport</span>
+            </figcaption>
+          </blockquote>
+        </div>
+        <div class="testimonial-card">
+          <blockquote>
+            <p>“Beautiful video edits and design work. Will work again!”</p>
+            <figcaption>
+              <span class="testimonial-author">A. Shafatu</span>
+              <span class="testimonial-role">Shafatu Beauty</span>
+            </figcaption>
+          </blockquote>
+        </div>
+        <div class="testimonial-card featured">
+          <blockquote>
+            <p>
+              “Working with Introvert Graphics was an absolute pleasure. The design was clean, creative, and exactly what my brand needed. Communication was smooth and professional, and the final result exceeded my expectations. I highly recommend for anyone looking for a skilled and reliable designer!”
+            </p>
+            <figcaption>
+              <span class="testimonial-author">Sarah L.</span>
+              <span class="testimonial-role">Founder of Glow & Grace Skincare</span>
+            </figcaption>
+          </blockquote>
+          <div class="testimonial-caption">
+            <span class="caption-message">🌟 Featured Feedback</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-submit">
+        <h3>Share Your Experience</h3>
+        <p>Have you worked with Introvert Graphics? <a href="mailto:introvertgraphics@gmail.com?subject=Testimonial%20for%20Introvert%20Graphics" class="testimonial-message-link">Send your feedback</a> and help us grow!</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+      <div class="contact-header">
+        <h2>Contact Me</h2>
+        <p>Let's bring your vision to life! Fill out the form or reach out via <a href="mailto:introvertgraphics@gmail.com" class="footer-link">email</a> or <a href="https://wa.me/message/KHUHY76IZWBDJ1" class="footer-link" target="_blank">WhatsApp</a>.</p>
+      </div>
+      <form id="contact-form" autocomplete="off">
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required placeholder="your@email.com">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" required placeholder="How can I help you?"></textarea>
+        <button type="submit">Send Message</button>
+        <p id="form-status"></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-tagline">
+        <strong>Let’s Bring Your Vision to Life</strong>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about" class="footer-link">About</a>
+        <a href="#services" class="footer-link">Services</a>
+        <a href="#portfolio" class="footer-link">Portfolio</a>
+        <a href="#testimonials" class="footer-link">Testimonials</a>
+        <a href="#contact" class="footer-link">Contact</a>
+      </nav>
+      <div class="footer-social">
+        <a href="mailto:introvertgraphics@gmail.com" class="footer-link" title="Email">Email</a>
+        <a href="https://www.linkedin.com/in/mohammed-amin-sulemana-905869354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+           class="footer-link" target="_blank" rel="noopener" title="LinkedIn">LinkedIn</a>
+        <a href="https://www.instagram.com/introvertgraphics" class="footer-link" target="_blank" rel="noopener" title="Instagram">Instagram</a>
+        <a href="https://wa.me/message/KHUHY76IZWBDJ1" class="footer-link" target="_blank" rel="noopener" title="WhatsApp">WhatsApp</a>
+      </div>
+      <div class="footer-copyright">
+        © 2025 Introvert Graphics. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+  <script src="main.js"></script>
+</body>
+</html>
